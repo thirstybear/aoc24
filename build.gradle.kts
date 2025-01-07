@@ -11,6 +11,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    testImplementation("com.natpryce:hamkrest:1.8.0.1")
 }
 
 tasks.test {
